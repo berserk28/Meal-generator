@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meal generator</title>
+</head>
+<body>
+    <div class="error-message">
+        <div class="error-text">
+            Please Enter a Search term
+        </div>
+    </div>
+    <div class="container">
+        <div class="search-container">
+            <h1>Meal Finder</h1>
+            <div class="search-btns">
+                <input type="text" id="search" class="search" placeholder="   Search for Meals or Keyworords">
+                <button class="search-btn" id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button class="random-meal" id="random-meal"><i class="fa-solid fa-shuffle"></i></button>
+            </div>
+        </div>
+        <div class="search-response"></div>
+
+        <div class="gallery"></div>
+
+        <div class="image-container"> </div>
+
+        <div class="description-container"></div>
+
+        <div class="ingredients-container"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
